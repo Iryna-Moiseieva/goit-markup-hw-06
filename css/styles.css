@@ -454,7 +454,8 @@ body {
 }
 
 .footer-left {
-  margin-right: 93px;
+  width: 231px;
+  margin-right: 70px;
 }
 
 .logo-light {
@@ -492,10 +493,9 @@ body {
 }
 
 .footer-right {
-  margin-left: 70px;
-  margin-right: 93px;
   width: 206px;
   height: 80px;
+  margin-right: 93px;
 }
 .social-container {
   display: flex;
@@ -533,7 +533,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 358px;
-  margin-right: 12px;
+  margin-right: 8px;
 }
 .footer-form-input {
   width: 358px;
@@ -555,6 +555,9 @@ body {
   vertical-align: center;
   letter-spacing: 0.03em;
   color: #ffffff99;
+}
+.footer-form-input:not(:placeholder-shown) {
+  color: var(--primary-title-color);
 }
 
 .footer-form-btn {
